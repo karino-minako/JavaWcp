@@ -1,0 +1,35 @@
+
+public class Chapter05 {
+  long long2 = 9223372036854775807L;
+  System.out.println(long2);
+
+  double double2 = 9223372036854775807;
+  System.out.println(double2);
+
+  Float float2 = 9223372036854775807;
+  System.out.println(float2);
+
+  boolean boolean2 = 9223372036854775807;
+  System.out.println(boolean2);
+
+  Float Float2 = 9223372036854775807;
+  System.out.println(Float2);
+
+  Integer Integer2 = 9223372036854775807;
+  System.out.println(Integer2);
+
+  Float float2 = 9223372036854775807;
+  System.out.println(float2);
+
+  Character Character2 = 9223372036854775807;
+  System.out.println(Character2);
+
+  int[] array1 = new int[4];  // 配列の宣言と生成
+  array1[0] = 10;  // インデックス番号「0」を指定して１番目の要素にデータを代入
+  array1[2] = 20;  // ２番目の要素より先に３番目の要素にデータを代入
+  array1[3] = 30;  // ３番目と同じ値を２番目の要素に代入
+  array1[4] = 40;  // インデックス番号「0」を指定して１番目の要素にデータを代入
+  array1[5] = 50;  // ２番目の要素より先に３番目の要素にデータを代入
+  int int2 = array1[2];  // インデックス番号「2」を指定して３番目の要素を取得
+  System.out.println(int2);
+}
